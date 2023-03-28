@@ -3,10 +3,10 @@
 ### Assume the echo starts from the **4th last character** of the sentence
 
 1.  Sample Input: 'helloooo echooooo' <br />
-    Output: oooo
-            ooo
-            oo
-            o 
+    Output: oooo <br />
+            ooo <br />
+            oo <br />
+            o  <br />
 
 
 
