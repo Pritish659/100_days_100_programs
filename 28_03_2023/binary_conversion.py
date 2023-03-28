@@ -13,10 +13,12 @@ def binary_to_decimal(number:str)-> int:
         length_of_binary = length_of_binary-1
     return result
 
+
 '''To convert binary into octal or hexadecimal
 first you need to convert it into decimal then
 by reversed concatenation of the remainders you get
 the number in the desired base format'''
+
 def binary_convert(binary:str,base:str)-> str:
     result = ''
     #equivalent hexadecimal letters for decimal numbers 
