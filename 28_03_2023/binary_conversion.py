@@ -70,7 +70,7 @@ def binary_convert(binary:str,base:str)-> str:
 if __name__=='__main__':
     binary = input('Enter the binary number: ').lstrip()
     base = input('Enter the base:').lstrip().lower()
-    # get the corresponding base name of the input
+    #get the corresponding base name of the input
     base_dict = {'b':'binary','d':'decimal','o':'octal','x':'hexadecimal'}
     result = binary_convert(binary,base)
     print(f"The converted number in base {base_dict.get(base,None)} is {result}")
